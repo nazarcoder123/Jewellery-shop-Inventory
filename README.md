@@ -46,11 +46,12 @@ pip install -r requirements.txt
 4️⃣ Set Up the Database
 
 Create a database named jewellery_shop in Oracle 23ai or PostgreSQL (PgAdmin).
+
 Open run_sql.py, copy the SQL queries, and execute them in your database to create the required tables.
 
-5️⃣ Run the Application
-
 python console.py (This will insert some data in your database)
+
+5️⃣ Run the Application
 
 flask run
 
