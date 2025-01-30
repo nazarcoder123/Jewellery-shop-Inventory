@@ -44,11 +44,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 
 4️⃣ Set Up the Database
+
 Create a database named jewellery_shop in Oracle 23ai or PostgreSQL (PgAdmin).
 Open run_sql.py, copy the SQL queries, and execute them in your database to create the required tables.
 
 5️⃣ Run the Application
-python console.py
+
+python console.py (This will insert some data in your database)
+
 flask run
 
 The Flask application should now be running at Running on http://127.0.0.1:5000  🎉
