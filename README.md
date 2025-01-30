@@ -58,5 +58,7 @@ flask run
 The Flask application should now be running at Running on http://127.0.0.1:5000  🎉
 
 🛠 Requirements
+
 Python 3.10.0
+
 Oracle 23ai or PostgreSQL (PgAdmin)
