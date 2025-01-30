@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content%}
+    <h2>Designers</h2>
+    <a href='/designers/new' id='add_new_designer'>Add New Designer</a>
+    <div id='designer_list'>
+        {% for designer in designers%}
+        <section class='designers_list'>
+             <h3>{{designer.name}}</h3>
+             <p>{{designer.email}}</p>
+             <p>{{designer.status}}</p>
+             <div>
+                <a href='/designers/{{designer.id}}/edit' class="material-icons orange">edit</a>
+                <button class="material-icons green">add</button>
+            </div>
+         </section>
+        {% endfor%}
+    </div>
+{%endblock%}
